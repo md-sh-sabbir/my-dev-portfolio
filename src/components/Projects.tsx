@@ -9,7 +9,7 @@ const projects = [
     title: "BloodBank",
     description: "A blood donation platform that connects donors with recipients. Features include easy blood requests, real-time updates, verified donors, impact tracking, and blood type matching.",
     tech: ["React", "Firebase", "Tailwind CSS"],
-    github: "#",
+    github: "https://github.com/md-sh-sabbir/blood-donation-client/",
     live: "https://blood-donation-33ad7.web.app/",
     image: bloodDonationImg,
   },
@@ -17,7 +17,7 @@ const projects = [
     title: "Artify",
     description: "An artwork gallery and community platform where artists can showcase their work. Features include artwork uploads, community highlights, and digital art workshops.",
     tech: ["React", "Firebase", "Tailwind CSS"],
-    github: "#",
+    github: "https://github.com/md-sh-sabbir/artify-artwork-client/",
     live: "https://artify-artwork.web.app/",
     image: artifyImg,
   },
@@ -25,7 +25,7 @@ const projects = [
     title: "GameHub Store",
     description: "A gaming store platform featuring popular games, subscription options, and a modern gaming-themed interface with an immersive user experience.",
     tech: ["React", "Firebase", "Tailwind CSS"],
-    github: "#",
+    github: "https://github.com/md-sh-sabbir/game-hub/",
     live: "https://game-hub-store.web.app/",
     image: gameHubImg,
   },
@@ -77,6 +77,7 @@ const Projects = () => {
                   <div className="flex gap-3">
                     <a
                       href={project.github}
+                      target="_blank"
                       className="text-muted-foreground hover:text-primary transition-colors"
                       aria-label="GitHub"
                     >
