@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import { FaNodeJs, FaReact } from "react-icons/fa";
 
 const skillCategories = [
   {
@@ -100,10 +102,18 @@ const Skills = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { letter: "M", name: "MongoDB", color: "text-green-500" },
-              { letter: "E", name: "Express.js", color: "text-gray-400" },
-              { letter: "R", name: "React.js", color: "text-cyan-400" },
-              { letter: "N", name: "Node.js", color: "text-green-400" },
+              { letter: <div className="flex justify-center">
+                <SiMongodb />
+              </div>, name: "MongoDB", color: "text-green-500" },
+              { letter: <div className="flex justify-center">
+                <SiExpress />
+              </div>, name: "Express.js", color: "text-gray-400" },
+              { letter: <div className="flex justify-center">
+                <FaReact />
+              </div>, name: "React.js", color: "text-cyan-400" },
+              { letter: <div className="flex justify-center">
+                <FaNodeJs />
+              </div>, name: "Node.js", color: "text-green-400" },
             ].map((tech, index) => (
               <motion.div
                 key={tech.name}
