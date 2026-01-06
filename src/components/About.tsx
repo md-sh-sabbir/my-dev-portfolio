@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Code2, Coffee, Rocket, Users } from "lucide-react";
+import myImg from '../assets/my-photo.jpg'
 
 const stats = [
   { icon: Code2, value: "50+", label: "Projects Completed" },
@@ -35,7 +36,8 @@ const About = () => {
             <div className="relative">
               <div className="w-full aspect-square max-w-md mx-auto rounded-2xl bg-gradient-primary p-1">
                 <div className="w-full h-full rounded-2xl bg-card flex items-center justify-center">
-                  <div className="font-mono text-6xl text-gradient">{"</>"}</div>
+                  {/* <div className="font-mono text-6xl text-gradient">{"</>"}</div> */}
+                  <img src={myImg} alt="" />
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-primary rounded-2xl opacity-20 blur-2xl" />

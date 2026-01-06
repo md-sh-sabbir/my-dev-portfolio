@@ -20,7 +20,7 @@ const education = [
     degree: "Secondary School Certificate (SSC)",
     institution: "Armanitola Govt. High School",
     location: "Dhaka, Bangladesh",
-    period: "2014 - 2016",
+    period: "2015 - 2016",
     description: "Science group with excellent academic performance. Achieved GPA 5.00.",
   },
 ];
