@@ -83,8 +83,8 @@ const Hero = () => {
             className="flex items-center justify-center gap-6"
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
+              { icon: Github, href: "https://github.com/md-sh-sabbir", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/md-sabbir-hossain-7730b628b/", label: "LinkedIn" },
               { icon: Mail, href: "#contact", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <a
